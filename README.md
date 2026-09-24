@@ -1,5 +1,8 @@
 # HPM RISC-V 项目构建 Docker
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/xianii/hpm-dev-docker)](https://hub.docker.com/r/xianii/hpm-dev-docker)
+[![Docker Image Version](https://img.shields.io/docker/v/xianii/hpm-dev-docker?sort=semver)](https://hub.docker.com/r/xianii/hpm-dev-docker)
+
 一个面向 HPM 系列 RISC-V MCU 项目的命令行交叉编译环境，包含 xPack `riscv-none-elf` GCC 13.2.0-2、CMake 和 Ninja。源码与 HPM SDK 由使用者提供，容器不绑定特定应用或 HPM-gateway 仓库。
 
 ## 拉取镜像
